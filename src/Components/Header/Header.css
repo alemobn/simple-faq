@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  height: 20vh;
+  width: 100vw;
+
+  background-color: var(--header-background-color);
+  padding: 0px 25px;
+}
+
+header h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+header p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-color);
+}
